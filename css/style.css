@@ -35,6 +35,7 @@ img{
     background-color: white;
 }
 
+
 /************************************************
     UTILITIES
  ************************************************/
@@ -147,7 +148,7 @@ main{
 /* Third Section */
 
 .third-section{
-    padding: 2rem 2rem 5rem;
+    padding: 2rem 0 5rem;
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 1.5rem;
@@ -156,4 +157,34 @@ main{
 .card figure{
     width: 100%; 
     margin-bottom: 1rem;
+}
+
+/* Fourth Section */
+
+.fourth-section{
+    padding: 3rem 0;
+}
+
+.fourth-section h2{
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.n-cards-container{
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1.5rem;
+}
+
+.numbered-cards{
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.numbered-cards h2{
+    color:  rgb(187, 93, 187);
+    font-size: 2rem;
+}
+.numbered-cards h3{
+    color:  rgb(187, 93, 187);
 }
