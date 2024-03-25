@@ -28,6 +28,12 @@ img{
 .bg-blue{
     background-color: skyblue;
 }
+.bg-purple{
+    background-color: rgb(187, 93, 187);
+}
+.bg-white{
+    background-color: white;
+}
 
 /************************************************
     UTILITIES
@@ -52,8 +58,16 @@ img{
     text-align: right;
 }
 
-h2{
-    color: rgb(18, 105, 187);
+
+p{
+    line-height: 1.5rem;
+}
+
+.text-box h2,
+h3,
+p{
+    margin-bottom: 1rem;
+    width: 100%;
 }
 
 
@@ -78,6 +92,7 @@ main{
 
 .first-section{
     padding: 2rem 0;
+    gap: 1rem;
     flex-wrap: wrap;
 }
 
@@ -87,17 +102,38 @@ main{
     border-radius: 1rem;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 
-.text-box h2,
-p,
-div{
-    margin-bottom: 1rem;
-    width: 100%;
+.first-section h2{
+    color: deepskyblue;
 }
+
 
 .col figure{
     margin-top: 1rem;
     width: 100%;
+}
+
+/*Second Section */
+
+.second-section{
+    padding: 1rem 0 ;
+}
+
+.second-container{
+    flex-wrap: wrap;
+    color: white;
+}
+
+.second-section figure{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.app-dev-box{
+    color: black;
+    padding: 1rem;
+    border-radius: 2rem;
+    flex-wrap: wrap;
 }
