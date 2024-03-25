@@ -25,6 +25,10 @@ img{
     flex-direction: column;
 }
 
+.relative{
+    position: relative;
+}
+
 .bg-blue{
     background-color: skyblue;
 }
@@ -188,3 +192,18 @@ main{
 .numbered-cards h3{
     color:  rgb(187, 93, 187);
 }
+
+/* Fifth Section */
+
+.fifth-section{
+    padding: 2rem 0;
+    flex-wrap: wrap;
+}
+.fifth-section h2{
+    color: rgb(187, 93, 187);
+}
+
+.fig-container h3{
+    color: rgb(187, 93, 187);
+}
+
