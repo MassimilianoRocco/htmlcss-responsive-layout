@@ -38,6 +38,9 @@ img{
 .bg-white{
     background-color: white;
 }
+.bg-black{
+    background-color: black;
+}
 
 
 /************************************************
@@ -207,3 +210,13 @@ main{
     color: rgb(187, 93, 187);
 }
 
+/* Footer */
+
+.upper-footer-container{
+    padding: 2rem 0;
+}
+
+.lower-footer-container{
+    padding: 2rem 0;
+    color: white;
+}
