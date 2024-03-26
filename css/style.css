@@ -107,7 +107,25 @@ p{
     color: white;
 }
 
-/* MAIN CONTENT */
+.prova{
+    width: 50% ;
+    justify-content: space-between;
+    display: none;
+}
+
+.get-started{
+    padding: 3px;
+    color: black;
+    border: 1px solid white ;
+    border-radius: 20%/80%;
+    background-color: white;
+
+}
+
+
+/*************************************************
+    MAIN CONTENT
+ *************************************************/
 
 
 /*First Section */
@@ -283,7 +301,25 @@ p{
     border-radius: 10% / 90%;
 }
 
-/* Footer */
+.fig-container figure{
+    width: 50%;
+    margin-bottom: 1rem;
+}
+
+.fig-container .quote-icon{
+    font-size: 2rem;
+    color: #9593e6;
+}
+
+.absolute-icon{
+    position: absolute;
+    top: 0;
+    right: 50%;
+}
+
+/*************************************************
+    FOOTER
+ *************************************************/
 
 .upper-footer-container{
     padding: 2rem 0;
@@ -340,7 +376,9 @@ p{
 }
 
 
-/* MEDIA */
+/*************************************************
+    MEDIA
+ *************************************************/
 
 @media screen and (min-width:480px) and (max-width:1024px) {
    
@@ -363,6 +401,7 @@ p{
         margin: 0;    
     }
 
+    /* Second Section */
 
     /* Third section */
 
@@ -405,10 +444,16 @@ p{
 
 @media screen and (min-width:1025px) {
 
+
+    /* Header */
+    .h-container .menu{
+        display: none;
+    }
+    .h-container .prova{
+        display: flex;
+    }
+
     /* First Section */
-
-        
-
     .first-section .col{
             width: calc((100% / 3) - 1rem);
     }
@@ -418,8 +463,23 @@ p{
             text-align: left;
     }
 
-    /* Second Section */
+    .col .text-box{
+        width: 50%;
+    }
 
+    .col figure{
+        width: 50%;
+    }
+
+    /* Second Section */
+    .second-container{
+        justify-content: space-between;
+        gap: 1rem;
+    }
+    .second-container .img-text-container,
+    .app-dev-box{
+        width: calc((100% / 2) - 1rem);
+    }
        
     /* Third section */
 
